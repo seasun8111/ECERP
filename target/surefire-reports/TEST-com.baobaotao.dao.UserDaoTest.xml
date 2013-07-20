@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.071" errors="2" skipped="0" tests="2" name="com.trueland.ecerp.dao.UserDaoTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_01\jre\bin"/>
+    <property name="java.vm.version" value="21.1-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\sping3.x (1)\chapter17"/>
+    <property name="java.runtime.version" value="1.7.0_01-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\workspace\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf8377184927203261627.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_01\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Program Files (x86)\PC Connectivity Solution\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\SinaVirtualCamera\bin;C:\Program Files (x86)\Java\jdk1.7.0_01/bin;C:\Program Files (x86)\Java\jdk1.7.0_01/jre/bin;E:\maven/bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Program Files (x86)\Java\jdk1.7.0_01/bin;C:\Program Files (x86)\Java\jdk1.7.0_01/jre/bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="/P:/eclipse/eclipse3.5/eclipse/configuration/org.eclipse.osgi/bundles/979/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_01\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s E:\maven\conf\settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_01"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_01\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\sping3.x (1)\chapter17\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.034" classname="com.trueland.ecerp.dao.UserDaoTest" name="saveUser">
+    <error message="Unable to create application context for locations [classpath:/ecerp-dao.xml]" type="org.unitils.core.UnitilsException">org.unitils.core.UnitilsException: Unable to create application context for locations [classpath:/ecerp-dao.xml]
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:121)
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:36)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstanceImpl(AnnotatedInstanceManager.java:234)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstanceImpl(AnnotatedInstanceManager.java:240)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstance(AnnotatedInstanceManager.java:121)
+	at org.unitils.spring.util.ApplicationContextManager.getApplicationContext(ApplicationContextManager.java:65)
+	at org.unitils.spring.SpringModule.getApplicationContext(SpringModule.java:222)
+	at org.unitils.spring.SpringModule$1.isApplicableFor(SpringModule.java:104)
+	at org.unitils.database.transaction.impl.DefaultUnitilsTransactionManager.getTransactionManagementConfiguration(DefaultUnitilsTransactionManager.java:182)
+	at org.unitils.database.transaction.impl.DefaultUnitilsTransactionManager.startTransaction(DefaultUnitilsTransactionManager.java:98)
+	at org.unitils.database.DatabaseModule.startTransaction(DatabaseModule.java:410)
+	at org.unitils.database.DatabaseModule.startTransactionForTestMethod(DatabaseModule.java:381)
+	at org.unitils.database.DatabaseModule$DatabaseTestListener.beforeTestSetUp(DatabaseModule.java:535)
+	at org.unitils.core.Unitils$UnitilsTestListener.beforeTestSetUp(Unitils.java:273)
+	at org.unitils.UnitilsJUnit4TestClassRunner$TestListenerInvokingMethodRoadie.runBeforesThenTestThenAfters(UnitilsJUnit4TestClassRunner.java:151)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:84)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)
+	at org.unitils.UnitilsJUnit4TestClassRunner.invokeTestMethod(UnitilsJUnit4TestClassRunner.java:95)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.unitils.UnitilsJUnit4TestClassRunner.access$000(UnitilsJUnit4TestClassRunner.java:44)
+	at org.unitils.UnitilsJUnit4TestClassRunner$1.run(UnitilsJUnit4TestClassRunner.java:62)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.unitils.UnitilsJUnit4TestClassRunner.run(UnitilsJUnit4TestClassRunner.java:68)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;boardDao&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.orm.hibernate3.HibernateTemplate com.trueland.ecerp.dao.BaseDao.hibernateTemplate; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:117)
+	... 35 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.orm.hibernate3.HibernateTemplate com.trueland.ecerp.dao.BaseDao.hibernateTemplate; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	... 46 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	... 48 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2308)
+	at java.lang.Class.getDeclaredFields(Class.java:1760)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:373)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:846)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 57 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.cache.CacheProvider
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	... 74 more
+</error>
+    <system-err>六月 22, 2013 3:41:16 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1694ee6: startup date [Sat Jun 22 15:41:16 CST 2013]; root of context hierarchy
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [ecerp-dao.xml]
+六月 22, 2013 3:41:16 下午 org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+信息: Loading properties file from class path resource [jdbc.properties]
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@122558e: defining beans [boardDao,loginLogDao,postDao,topicDao,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+信息: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@122558e: defining beans [boardDao,loginLogDao,postDao,topicDao,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+</system-err>
+  </testcase>
+  <testcase time="0.036" classname="com.trueland.ecerp.dao.UserDaoTest" name="findUserByUserName">
+    <error message="Unable to create application context for locations [classpath:/ecerp-dao.xml]" type="org.unitils.core.UnitilsException">org.unitils.core.UnitilsException: Unable to create application context for locations [classpath:/ecerp-dao.xml]
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:121)
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:36)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstanceImpl(AnnotatedInstanceManager.java:234)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstanceImpl(AnnotatedInstanceManager.java:240)
+	at org.unitils.core.util.AnnotatedInstanceManager.getInstance(AnnotatedInstanceManager.java:121)
+	at org.unitils.spring.util.ApplicationContextManager.getApplicationContext(ApplicationContextManager.java:65)
+	at org.unitils.spring.SpringModule.getApplicationContext(SpringModule.java:222)
+	at org.unitils.spring.SpringModule$1.isApplicableFor(SpringModule.java:104)
+	at org.unitils.database.transaction.impl.DefaultUnitilsTransactionManager.getTransactionManagementConfiguration(DefaultUnitilsTransactionManager.java:182)
+	at org.unitils.database.transaction.impl.DefaultUnitilsTransactionManager.startTransaction(DefaultUnitilsTransactionManager.java:98)
+	at org.unitils.database.DatabaseModule.startTransaction(DatabaseModule.java:410)
+	at org.unitils.database.DatabaseModule.startTransactionForTestMethod(DatabaseModule.java:381)
+	at org.unitils.database.DatabaseModule$DatabaseTestListener.beforeTestSetUp(DatabaseModule.java:535)
+	at org.unitils.core.Unitils$UnitilsTestListener.beforeTestSetUp(Unitils.java:273)
+	at org.unitils.UnitilsJUnit4TestClassRunner$TestListenerInvokingMethodRoadie.runBeforesThenTestThenAfters(UnitilsJUnit4TestClassRunner.java:151)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:84)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)
+	at org.unitils.UnitilsJUnit4TestClassRunner.invokeTestMethod(UnitilsJUnit4TestClassRunner.java:95)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:61)
+	at org.unitils.UnitilsJUnit4TestClassRunner.access$000(UnitilsJUnit4TestClassRunner.java:44)
+	at org.unitils.UnitilsJUnit4TestClassRunner$1.run(UnitilsJUnit4TestClassRunner.java:62)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.unitils.UnitilsJUnit4TestClassRunner.run(UnitilsJUnit4TestClassRunner.java:68)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;boardDao&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.orm.hibernate3.HibernateTemplate com.trueland.ecerp.dao.BaseDao.hibernateTemplate; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.unitils.spring.util.ApplicationContextManager.createInstanceForValues(ApplicationContextManager.java:117)
+	... 35 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.orm.hibernate3.HibernateTemplate com.trueland.ecerp.dao.BaseDao.hibernateTemplate; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:514)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	... 46 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;hibernateTemplate&apos; defined in class path resource [ecerp-dao.xml]: Initialization of bean failed; nested exception is java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:532)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:486)
+	... 48 more
+Caused by: java.lang.NoClassDefFoundError: Lorg/hibernate/cache/CacheProvider;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2308)
+	at java.lang.Class.getDeclaredFields(Class.java:1760)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:373)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:846)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:461)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1393)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:522)
+	... 57 more
+Caused by: java.lang.ClassNotFoundException: org.hibernate.cache.CacheProvider
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	... 74 more
+</error>
+    <system-err>六月 22, 2013 3:41:16 下午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@10619b7: startup date [Sat Jun 22 15:41:16 CST 2013]; root of context hierarchy
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+信息: Loading XML bean definitions from class path resource [ecerp-dao.xml]
+六月 22, 2013 3:41:16 下午 org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+信息: Loading properties file from class path resource [jdbc.properties]
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a226eb: defining beans [boardDao,loginLogDao,postDao,topicDao,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+六月 22, 2013 3:41:16 下午 org.springframework.beans.factory.support.DefaultSingletonBeanRegistry destroySingletons
+信息: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a226eb: defining beans [boardDao,loginLogDao,postDao,topicDao,userDao,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,sessionFactory,hibernateTemplate,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+</system-err>
+  </testcase>
+</testsuite>
